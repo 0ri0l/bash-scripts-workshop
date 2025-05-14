@@ -6,6 +6,7 @@ while true; do
   choices=("piedra" "papel" "tijera")
   machine=${choices[$RANDOM % 3]}
   echo "La máquina eligió: $machine"
+# Necessiot que m'expliquis què has fet aquí
 
   if [ "$player" = "$machine" ]; then
     echo "Empate"
