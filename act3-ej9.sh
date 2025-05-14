@@ -13,3 +13,5 @@ while true; do
     *) echo "Opción no válida." ;;
   esac
 done
+
+#Per què no utilitzes les estructures que es van treballar a teoria per aquests exercicis en concret?
